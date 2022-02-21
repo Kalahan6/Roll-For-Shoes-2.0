@@ -1,0 +1,53 @@
+:root {
+  --color-bg: white;
+	--color-bg-button: #424242;
+	--color-border: black
+	--color-text: black;
+	--color-text-button: white;
+	--color-text-alt: gray;
+	--height-row: 30px;
+	--height-button: 40px;
+	--width-box-max: 300px;
+	--text-font-family: 'Trebuchet MS', sans-serif;
+	--text-size: 16pt;
+}
+
+.btnIconText .fas{
+	padding-right:6px;
+}
+
+* {
+	font-family: var(--text-font-family);
+	font-size: var(--text-size);
+}
+
+.uiRow{
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.txtBasic{
+	height: var(--height-row);
+}
+
+.btnBasic{
+	height: var(--height-button);
+	border: none;
+  color: var(--color-text-button);
+	background-color: var(--color-bg-button);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  
+
+	margin: 0 auto ;
+	margin-top: 30px;
+
+
+	cursor:pointer;
+}
+
+
+.skillTxtKevel{
+	width: 30px;
+}

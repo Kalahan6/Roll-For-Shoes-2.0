@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="https://kit.fontawesome.com/64132fb39c.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    Hello world
+    Roll For Shoes
+		
+		<div id="skills">
+			<div id="skillsControls" class="uiRow">
+				<button class="skillsBtnEdit  btnBasic btnIconText" type="button"><i class="fas fa-pen"></i> Edit</button>
+				<button class="skillsBtnEdit  btnBasic btnIconText" type="button"><i class="fas fa-plus"></i> Add Skill</button>
+			</div>
+			<div id="skillsList">
+			<div class="skillRow uiRow">
+				<input class="skillTxtName txtBasicIcon " type="text" value="Do Anything"></input>
+				<input class="skillTxtKevel txtBasic" type="text" value="1"></input>
+				<button class="skillBtnDice  btnBasic btnIcon" type="button"><i class="fas fa-dice"></i></button>
+			</div>
+			</div>
+		</div>
+
+		<ul>
+			<li>Say what you do and roll a number of D6s, determined by the level of relevant skill you have.</li>
+			<li>If the sum of your roll is higher than the opposing roll, the thing you wanted to happen, happens.</li>
+			<li>At start, you have only one skill: Do Anything 1.</li>
+			<li>If you roll all sixes, you get a new skill specific to the action, one level higher than the one you used.</li>
+			<li>For every roll you fail, you get 1 XP.</li>
+			<li>XP can be used to change a die into a 6 for advancement purposes only.</li>
+		</ul>
+		
     <script src="script.js"></script>
   </body>
 </html>
+
